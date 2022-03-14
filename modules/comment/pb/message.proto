@@ -42,7 +42,7 @@ message ListCommentResponse {
 
 message UpdateCommentRequest {
 	string id = 1;
-	string contents = 2;
+	string content = 2;
 }
 
 message UpdateCommentResponse {
@@ -56,7 +56,7 @@ message DeleteCommentRequest {
 message DeleteCommentResponse {}
 
 message DeleteCommentByVideoIDRequest {
-	string id = 1;
+	string video_id = 1;
 }
 
 message DeleteCommentByVideoIDResponse {}
