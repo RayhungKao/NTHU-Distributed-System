@@ -37,3 +37,11 @@ To build docker image, run `make dc.image`.
 ## CI/CD
 
 The CI/CD runs in [Github Actions](https://github.com/features/actions). See [workflow spec](.github/workflows/main.yml) for more details.
+## Pass test screeshots 
+for DS course grading
+
+Lab - gRPC
+![alt text](./result/test_output2.png)
+
+Lab - Redis
+![alt text](./result/pass_redis_test.png)
